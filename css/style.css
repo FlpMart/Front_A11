@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+/*Header*/
+
+.header__background {
+    /* Rectangle 1 */
+
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__logo {
+    /* VectorPizza */
+
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.header__title {
+    /* Pizza&Front */
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 28px;
+    left: 150px;
+    top: 36px;
+
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header__nav {
+    /* Nav */
+
+    position: absolute;
+    width: 276px;
+    height: 19px;
+    right: 150px;
+    top: 25px;
+    display: flex;
+    gap: 50px;
+
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Main*/
+
+.container {
+    /* Section */
+
+    position: fixed;
+    height: 350px;
+    width: 1330px;
+    top: 135px;
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container2 {
+    /* delivery */
+
+    position: relative;
+    display: flex;
+}
+
+.container figcaption {
+    /* Envio grátis comprando 2 pizzas */
+
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.main__menu {
+    /* Rectangle 2 */
+
+    position: relative;
+    width: 491px;
+    height: 350px;
+    display: flex;
+
+    background: white;
+    border-radius: 5px;
+}
+
+.menu__title {
+    /* Cardápio de pizzas */
+
+    color: #FC200C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    position: absolute;
+    left: 138px;
+}
+
+.menu__top {
+    /* TOP 5 */
+
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 69px;
+    top: 80px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #222222;
+}
+
+.menu__imagem {
+    /* PizzaFalling */
+
+
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 325px;
+    top: 132px;
+
+    background: url(falling.png);
+    border-radius: 5px;
+}
+
+.menu__list {
+    /* top 5 */
+
+    position: absolute;
+    left: 69px;
+    top: 130px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #222222;
+}
+
+.main__delivery {
+    /* Delivery */
+
+    position: fixed;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+
+    border-radius: 2px;
+}
+
+/*Footer*/
+
+.footer__background {
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: calc(50% - 100%/2);
+    bottom: 0;
+
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer__nav {
+    /* Nav */
+
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    list-style-type: none;
+}
+
+
+.footer__logo {
+    /* VectorPizza */
+
+    position: absolute;
+    left: 1024px;
+    top: 34px;
+}
+
+.footer__title {
+    /* Pizza&Front */
+
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 23px;
+    position: absolute;
+    top: 35px;
+    left: 1154px;
+}
